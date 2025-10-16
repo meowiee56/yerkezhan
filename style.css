@@ -38,7 +38,7 @@ html,body { height:100%; margin:0; font-family: "Roboto", sans-serif; color:#e6f
   position:absolute; inset:0;
   background:
     linear-gradient(180deg, rgba(2,10,10,0.45), rgba(1,8,8,0.6)),
-    url('iлш/hero.jpg') center/cover no-repeat;
+    url('iki/hero.jpg') center/cover no-repeat;
   filter: blur(6px) brightness(.55);
   transform: scale(1.05);
   z-index:0;
@@ -112,4 +112,5 @@ h2 { color:#e9fbfb; margin:0 0 20px; font-family:'Montserrat',sans-serif; }
   .about-inner { grid-template-columns: 1fr; }
   .about-card { transform: none; margin-top:-60px; }
 }
+
 
