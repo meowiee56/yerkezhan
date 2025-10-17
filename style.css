@@ -31,17 +31,15 @@ html,body { height:100%; margin:0; font-family: "Roboto", sans-serif; color:#e6f
 .nav-list a { color: #cfe9e8; text-decoration:none; font-weight:500; }
 
 /* ---------- hero ---------- */
-.hero { position:relative; min-height:76vh; display:flex; align-items:center; }
-.hero::before{
-  /* Размытый фон: картинка + затемнение + blur */
-  content:"";
-  position:absolute; inset:0;
-  background:
-    linear-gradient(180deg, rgba(2,10,10,0.45), rgba(1,8,8,0.6)),
-    url('iki/hero.jpg') center/cover no-repeat;
-  filter: blur(6px) brightness(.55);
-  transform: scale(1.05);
-  z-index:0;
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('elephant.jpg') no-repeat center/cover; /* ← твоя картинка со слоном */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
 }
 
 /* содержимое над фоном — обязательно выше псевдоэлемента */
@@ -112,5 +110,6 @@ h2 { color:#e9fbfb; margin:0 0 20px; font-family:'Montserrat',sans-serif; }
   .about-inner { grid-template-columns: 1fr; }
   .about-card { transform: none; margin-top:-60px; }
 }
+
 
 
