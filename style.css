@@ -34,7 +34,7 @@ html,body { height:100%; margin:0; font-family: "Roboto", sans-serif; color:#e6f
 .hero {
   position: relative;
   height: 100vh;
-  background: url('hero.jpg') no-repeat center/cover; /* ← твоя картинка со слоном */
+  background: url('iki/hero.jpg') no-repeat center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +44,7 @@ html,body { height:100%; margin:0; font-family: "Roboto", sans-serif; color:#e6f
 
 /* содержимое над фоном — обязательно выше псевдоэлемента */
 .hero-inner { position:relative; z-index:1; padding:60px 0; }
-.hero-text { width:55%; }
+.hero-text { width:70%; }
 .hero h1 { font-family:'Montserrat',sans-serif; font-size:48px; line-height:1.03; margin:0 0 16px; color:#fff; letter-spacing:-0.5px; }
 .lead { color:var(--muted); margin-bottom:20px; font-size:16px; }
 
@@ -110,6 +110,7 @@ h2 { color:#e9fbfb; margin:0 0 20px; font-family:'Montserrat',sans-serif; }
   .about-inner { grid-template-columns: 1fr; }
   .about-card { transform: none; margin-top:-60px; }
 }
+
 
 
 
